@@ -13,6 +13,23 @@ Read and display the water level of a cistern.
 - [PlatformIO Plugin for Visual Studio Code][PIO]
 - [Visual Studio Code][VSC]
 
+## Wiring
+
+The [Super sonic sensor][HCSR04] is connected to
+
+- VCC => +5V
+- TRG => PIN 13
+- ECHO => PIN 12
+- GND => GND
+
+The [16x2 LCD display (I2S)][16x2I2S] is connected to
+
+- Using address 0x27
+- VCC => 5V
+- GND => GND
+- SDA => A4
+- SCL => A5
+
 ## Remarks
 
 This is my first attempt to use [PlatformIO][PIO] and [Visual Studio Code][VSC] as environment
