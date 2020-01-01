@@ -15,6 +15,8 @@ Read and display the water level of a cistern.
 
 ## Wiring
 
+### Physical
+
 The [Super sonic sensor][HCSR04] is connected to
 
 - VCC => +5V
@@ -29,6 +31,11 @@ The [16x2 LCD display (I2S)][16x2I2S] is connected to
 - GND => GND
 - SDA => A4
 - SCL => A5
+
+### Fritzing
+
+![Wiring schema](./SuSoCi-Schema_Steckplatine.png)
+
 
 ## Remarks
 
